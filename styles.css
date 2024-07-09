@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333333;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.download-button {
+    background-color: #ff4757;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-button:hover {
+    background-color: #e84118;
+    transform: scale(1.05);
+}
